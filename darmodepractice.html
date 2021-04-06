@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./styledarmode.css">
+<body>
+ <script>
+      var app = document.getElementsByTagName("BODY")[0];
+      if (localStorage.lightMode == "dark") {
+        app.setAttribute("data-light-mode", "dark");
+    </script>
+	<script src="./main.js"></script>
+</head>
+ <button onclick="toggle_light_mode()">
+      tap on me
+    </button>
+   </body>
+</html>
